@@ -1,0 +1,25 @@
+{
+  "name": "entreno-api",
+  "version": "1.0.0",
+  "description": "Api para aplicacion de entrenamiento",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "entreno",
+    "entrenamiento"
+  ],
+  "author": "Anibal Schiaves",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.7.1",
+    "method-override": "^2.1.2",
+    "mongoose": "^5.0.1"
+  },
+  "//":"reemplace la version 6.3.5 de mongoose por la 5.0.1"
+}
